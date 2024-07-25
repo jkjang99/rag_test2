@@ -7,7 +7,7 @@ import tempfile
 
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.chat_models import ChatOpenAI
-# from langchain_community.llms import Ollama
+from langchain_community.llms import Ollama
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.document_loaders import Docx2txtLoader
